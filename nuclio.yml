@@ -1,0 +1,8 @@
+apiVersion: "nuclio.io/v1"
+kind: NuclioFunction
+metadata:
+  name: nuclio-symfony-demo
+spec:
+  image: patrickjahns/nuclio-symfony-demo
+  handler: main:Handler
+  runtime: golang
